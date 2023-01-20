@@ -5,9 +5,9 @@ stages:
     params:
       params.yaml:
         group:
-          a: 1
-          b: 1
+          a: 2
+          b: 2
     outs:
     - path: new.yaml
-      md5: 28530216ac8c7a466a1d85fa4fd9746a
+      md5: 67c0299541608f809da2233ba3e2ed13
       size: 21
