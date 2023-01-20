@@ -1,6 +1,9 @@
 [core]
-    remote = default
+    remote = drive
 [hydra]
     enabled = true
 ['remote "default"']
     url = ../../dvcremote
+['remote "drive"']
+    url = gdrive://1TzJI2SLThmkLral2uV0qbfyrLzueHn_K/dvcstore
+    gdrive_acknowledge_abuse = true
