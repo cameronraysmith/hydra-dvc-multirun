@@ -1,5 +1,6 @@
 [core]
     remote = drive
+    analytics = false
 [hydra]
     enabled = true
 ['remote "default"']
