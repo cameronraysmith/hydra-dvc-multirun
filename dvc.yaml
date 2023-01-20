@@ -1,5 +1,7 @@
 stages:
   test:
-    cmd: cat params.yaml
+    cmd: cat params.yaml && cat params.yaml > new.yaml
     params:
-    - params.yaml:
+      - params.yaml:
+    outs:
+      - new.yaml
